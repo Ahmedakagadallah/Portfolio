@@ -18,6 +18,7 @@ header {
     padding: 10px 200px ;
 }
 
+
 .logo{
     text-decoration: none;
     color: #c83f30;
@@ -115,7 +116,7 @@ section {
 }
 
 .card {
-    background-color: #fff;
+    background-color: rgb(254, 254, 254);
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
@@ -134,18 +135,20 @@ section {
     text-align: center;
 }
 
+
+
 .info {
     text-align: center;
 }
 
 .info h3{
-    color: #ffffff;
+    color: #c83f30;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
 .projects {
-    background-color: #ececec;
+    background-color: #eba8a8;
 }
 
 .projects .content{
@@ -184,6 +187,14 @@ section {
     color: #000;
 }
 
+.more-details {
+    color: #c83f30;
+    
+}
+
+.more-details a:hover{
+    color: #ff0000;
+}
 .project-title {
     display: flex;
     justify-content: space-between;
@@ -192,12 +203,12 @@ section {
     margin-top: 10px;
 }
 
-.more-details {
+.explore {
     text-decoration: none;
     color: #c83f30;
 }
 
-.more-details:hover {
+.explore:hover {
     color: #1c1fda;
 }
 
@@ -212,11 +223,14 @@ section {
 .contact .info p {
     font-size: 1em;
 }
+.contact {
+    background-color: #eba8a8;
+}
 
 .footer {
-    background-color: #000016;
+    background-color: #c83f30;
     color: #fff;
-    padding: 2em;
+    padding: 1em;
     display: flex;
     justify-content: space-between;
 }
